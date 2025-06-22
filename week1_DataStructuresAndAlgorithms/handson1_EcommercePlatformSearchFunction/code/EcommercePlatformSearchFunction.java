@@ -1,5 +1,3 @@
-package week1_DataStructuresAndAlgorithms.handson1_EcommercePlatformSearchFunction.code;
-
 import java.util.Arrays;
 import java.util.Comparator;
 
