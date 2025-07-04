@@ -17,3 +17,7 @@ week3/**/.gitattributes
 
 ### VS Code ###
 .vscode/
+week3/**/echo
+week3/**/orm-learn/java
+week3/**/maven-wrapper.properties
+week3/**/orm-learn/mvn
