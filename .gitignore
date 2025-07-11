@@ -2,8 +2,8 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-week3/**/.gitignore
-week3/**/.gitattributes
+**/**/.gitignore
+**/**/.gitattributes
 
 ### IntelliJ IDEA ###
 .idea/
@@ -17,7 +17,7 @@ week3/**/.gitattributes
 
 ### VS Code ###
 .vscode/
-week3/**/echo
-week3/**/orm-learn/java
-week3/**/maven-wrapper.properties
-week3/**/orm-learn/mvn
+**/**/echo
+**/**/orm-learn/java
+**/**/maven-wrapper.properties
+**/**/orm-learn/mvn
