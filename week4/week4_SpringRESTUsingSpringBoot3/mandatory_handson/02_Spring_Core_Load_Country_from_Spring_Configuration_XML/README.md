@@ -1,17 +1,12 @@
 ## Filename : 1. spring-rest-handson
 
 Spring Core – Load Country from Spring Configuration XML An airlines website is going to support booking on four countries. There will be a drop down on the home page of this website to select the respective country. It is also important to store the two-character ISO code of each country.
-    |----|----|
     |Code |Name|
-    |----|----|
+    |---|---|
     |US| United States|
-    |----|----|
     |DE |Germany|
-    |----|----|
     |IN |India
-    |----|----|
     |JP |Japan|
-    |----|----|
 
 Above data has to be stored in spring configuration file. Write a program to read this configuration file and display the details. Steps to implement
 
