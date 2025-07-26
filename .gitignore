@@ -21,3 +21,7 @@ target/
 **/**/orm-learn/java
 **/**/maven-wrapper.properties
 **/**/orm-learn/mvn
+
+
+### React ###
+node_modules/
