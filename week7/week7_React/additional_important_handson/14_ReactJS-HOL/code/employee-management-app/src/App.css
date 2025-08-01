@@ -1,0 +1,45 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.employee-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.employee-card {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.employee-card h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.employee-card p {
+  font-size: 1em;
+  color: #555;
+}
+
+.light .employee-card {
+  background-color: #fff;
+  color: #333;
+}
+
+.light .employee-list {
+  background-color: #f9f9f9;
+}
+
+.dark .employee-card {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark .employee-list {
+  background-color: #444;
+}
