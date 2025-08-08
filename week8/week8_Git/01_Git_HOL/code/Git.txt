@@ -1,0 +1,26 @@
+Note -> Listing the commands which I ran in this handson
+
+git version
+
+git config --global --list
+
+
+--------------------------------------------------------------------
+
+notepad++
+
+git config --global core.editor "notepad++.exe -multiInst -nosession"
+
+git config --global -e
+
+--------------------------------------------------------------------
+
+git init GitDemo
+
+echo "Welcome to the version control" >> welcome.txt
+
+git add welcome.txt
+
+git commit -m "Initial commit with welcome.txt"
+
+git push origin master

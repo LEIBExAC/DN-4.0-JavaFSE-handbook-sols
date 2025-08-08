@@ -1,0 +1,24 @@
+Note -> Listing the commands which I ran in this handson
+
+git branch GitNewBranch
+
+git branch -a
+
+git checkout GitNewBranch
+
+echo "This is a change on the GitNewBranch" > newfile.txt
+
+git add newfile.txt
+git commit -m "Added newfile.txt to GitNewBranch"
+
+git status
+
+git checkout main
+
+git log --oneline --graph --decorate
+
+git merge GitNewBranch
+
+git log --oneline --graph --decorate
+
+git branch -d GitNewBranch
