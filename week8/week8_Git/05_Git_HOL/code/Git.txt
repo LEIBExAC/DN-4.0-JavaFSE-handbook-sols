@@ -1,0 +1,11 @@
+Note -> Listing the commands which I ran in this handson
+
+git status
+
+git branch -a
+
+git pull origin main
+
+git push origin main
+
+git log --oneline --graph --decorate

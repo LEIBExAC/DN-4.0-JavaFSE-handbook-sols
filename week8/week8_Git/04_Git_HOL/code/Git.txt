@@ -1,0 +1,31 @@
+Note -> Listing the commands which I ran in this handson
+
+git status
+
+git checkout -b GitWork
+
+echo "<message>Hello, Git.</message>" > hello.xml
+git status
+
+git add hello.xml
+git commit -m "Add hello.xml to GitWork"
+
+git checkout main
+
+echo "<message>Hello from main.</message>" > hello.xml
+git status
+
+git add hello.xml
+git commit -m "Update hello.xml in main"
+
+git checkout GitWork
+
+git merge main
+git status
+
+git mergetool --tool=p4merge
+
+git add hello.xml
+git commit -m "Resolved conflict in hello.xml"
+
+git log --oneline --graph --decorate
